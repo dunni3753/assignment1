@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: white (19, 18, 17)seashell
+  }
+  .a1 p {
+    display: flex;
+    
+  }
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, orange , brown );
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: linear-gradient(180deg, #d3dbd7, #224e22);
+    padding: 100px;
+    border-radius: 20px;
+    color: white;
+    gap: 20px;
+  }
+  input,
+  select {
+    padding: 10px;
+  }
+  .radio {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .radio div {
+    display: flex;
+    align-items: center;
+  }
+  .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .o1.o2.o3.o4.o5.o6.o7{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
