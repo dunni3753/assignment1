@@ -3,60 +3,75 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .a1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    background-color: white (19, 18, 17)seashell
-  }
-  .a1 p {
-    display: flex;
-    
-  }
   .formContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(90deg, orange , brown );
-  }
-  
-  .form {
+    height:120vh;
+    flex-direction: column;
+    background: #8cb6a2;
+    gap: 10px;
+  }  
+  .FirstParagraph {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    background: linear-gradient(180deg, #d3dbd7, #224e22);
-    padding: 100px;
+  }
+  .form {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align ;
+    background: linear-gradient(180deg, #294236, #7ddb7d);
+    padding: 20px 150px;
     border-radius: 20px;
-    color: white;
-    gap: 20px;
+    width: fit-content;
+    gap: 10px;
+    border: 1px solid;
   }
-  input,
-  select {
-    padding: 10px;
-  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+      }
+input, select{
+  padding: 5px;
+}
   .radio {
     display: flex;
-    justify-content: center;
     gap: 10px;
   }
   .radio div {
     display: flex;
-    align-items: center;
+    align-items: center; 
   }
-  .checkbox {
+  .checkbox{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
-  .o1.o2.o3.o4.o5.o6.o7{
+  .inputDiv{
     display: flex;
-    flex-direction: column-reverse;
-
+    gap: 20px;
   }
   .submit{
-    display: flex;
     justify-content: center;
     align-items: center;
   }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: rgb(7, 1, 1);
+  }
+  .container,h1 p{
+    color: white
+  }
+  .form2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
