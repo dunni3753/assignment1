@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+    background: #8cb6a2;
+    gap: 10px;
+  }  
+  .FirstParagraph {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #294236, #7ddb7d);
+    padding: 20px 150px;
+    border-radius: 20px;
+    width: fit-content;
+    gap: 10px;
+    border: 1px solid;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+      }
+input, select{
+  padding: 5px;
+}
+  .radio {
+    display: flex;
+    gap: 10px;
+  }
+  .radio div {
+    display: flex;
+    align-items: center; 
+  }
+  .checkbox{
+    display: flex;
+    flex-direction: column;
+  }
+  .inputDiv{
+    display: flex;
+    gap: 20px;
+  }
+  .submit{
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: rgb(7, 1, 1);
+  }
+  .container,h1 p{
+    color: white
+  }
+  .form2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
